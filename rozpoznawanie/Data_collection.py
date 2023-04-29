@@ -7,6 +7,7 @@ import mss.tools
 import pyautogui
 import numpy as np
 import pyautogui
+import time
 
 cap=cv2.VideoCapture(0)
 mpFace = mp.solutions.face_detection

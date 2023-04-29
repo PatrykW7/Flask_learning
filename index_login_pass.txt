@@ -1,0 +1,16 @@
+<body>
+    <div>
+        <h1>Login</h1>
+        <form action="{{url_for('login')}}" method="post">
+            <!-- TO JEST DLA LOGINU-->
+            <label>username</label>
+            <input type="text" name = "username" id = "username" required>    
+            <!-- TO JEST DLA HASLA-->
+            <label>password</label>
+            <input type="password" name = "password" id = "password" required>
+            <input type = "submit" value = "login">
+        </form>
+        <table>
+    </div>
+</body>
+</html>
