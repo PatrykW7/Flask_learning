@@ -1,0 +1,26 @@
+<h1>Podglad wierszy dla stanowiska {{name}}</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Imie</th>
+            <th>Nazwisko</th>
+            <th>Login</th>
+            <th>Pensja</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in data%}
+        <tr>
+            <td>{{row[0]}}</td>
+            <td>{{row[1]}}</td>
+            <td>{{row[2]}}</td>
+            <td>{{row[3]}}</td>
+        </tr>
+
+        {%endfor%}
+    </tbody>
+
+
+
+</table>
